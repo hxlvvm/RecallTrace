@@ -1,0 +1,32 @@
+{
+  "source": "https://api.fda.gov/device/recall.json",
+  "licence": "openFDA data, CC0 (https://open.fda.gov/license/)",
+  "retrieved": "2026-10-07",
+  "queries": {
+    "FRN": {
+      "device": "infusion pump",
+      "search": "product_code:FRN",
+      "records": 721
+    },
+    "CBK": {
+      "device": "ventilator, facility use",
+      "search": "product_code:CBK",
+      "records": 323
+    },
+    "MKJ": {
+      "device": "automated external defibrillator",
+      "search": "product_code:MKJ",
+      "records": 336
+    },
+    "MHX": {
+      "device": "physiological patient monitor",
+      "search": "product_code:MHX",
+      "records": 286
+    },
+    "DQA": {
+      "device": "pulse oximeter",
+      "search": "product_code:DQA",
+      "records": 128
+    }
+  }
+}

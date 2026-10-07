@@ -1,0 +1,150 @@
+{"res": "Z-0139-2020", "unit": {"ref": "154413190", "lot": "4105785"}, "expect": "affected"}
+{"res": "Z-0139-2020", "unit": {"ref": "154413190", "lot": "4105786"}, "expect": "not_affected", "check_absent": "4105786"}
+{"res": "Z-0139-2020", "unit": {"ref": "154413190"}, "expect": "unresolved"}
+{"res": "Z-1191-2009", "unit": {"ref": "525-25", "lot": "08269012"}, "expect": "affected"}
+{"res": "Z-1191-2009", "unit": {"ref": "525-25", "lot": "08269013"}, "expect": "not_affected", "check_absent": "08269013"}
+{"res": "Z-1191-2009", "unit": {"ref": "525-25"}, "expect": "unresolved"}
+{"res": "Z-2741-2020", "unit": {"model": "8015", "serial": "12345678"}, "expect": "affected"}
+{"res": "Z-2741-2020", "unit": {"model": "8015"}, "expect": "affected"}
+{"res": "Z-2824-2020", "unit": {"model": "8120", "serial": "9876543"}, "expect": "affected"}
+{"res": "Z-1835-2013", "unit": {"model": "8015", "serial": "1005435"}, "expect": "affected"}
+{"res": "Z-1835-2013", "unit": {"model": "8015", "serial": "10001154"}, "expect": "affected"}
+{"res": "Z-1835-2013", "unit": {"model": "8015", "serial": "1005436"}, "expect": "not_affected", "check_absent": "1005436"}
+{"res": "Z-1835-2013", "unit": {"model": "8015"}, "expect": "unresolved"}
+{"res": "Z-2738-2014", "unit": {"model": "35700BAX", "serial": "723687"}, "expect": "affected"}
+{"res": "Z-2738-2014", "unit": {"model": "35700BAX", "serial": "938428"}, "expect": "affected"}
+{"res": "Z-2738-2014", "unit": {"model": "35700BAX", "serial": "723688"}, "expect": "not_affected", "check_absent": "723688"}
+{"res": "Z-0132-2020", "unit": {"ref": "163730455", "lot": "916845H"}, "expect": "affected"}
+{"res": "Z-0132-2020", "unit": {"ref": "163730455", "lot": "916846H"}, "expect": "not_affected", "check_absent": "916846H"}
+{"res": "Z-0132-2020", "unit": {"udi_di": "10887787007401"}, "expect": "unresolved"}
+{"res": "Z-3284-2011", "unit": {"model": "11971", "serial": "0013125000"}, "expect": "affected", "tag": "range"}
+{"res": "Z-3284-2011", "unit": {"model": "11973", "serial": "0012580000"}, "expect": "not_affected", "tag": "range"}
+{"res": "Z-3284-2011", "unit": {"model": "20679", "serial": "0015450000"}, "expect": "affected", "tag": "range"}
+{"res": "Z-3284-2011", "unit": {"model": "11973", "serial": "0013125000"}, "expect": "not_affected", "tag": "hard_model_specific_range"}
+{"res": "Z-1641-2008", "unit": {"model": "7400", "serial": "440030"}, "expect": "affected"}
+{"res": "Z-1641-2008", "unit": {"model": "7400", "serial": "442498"}, "expect": "affected"}
+{"res": "Z-1641-2008", "unit": {"model": "7400", "serial": "439999"}, "expect": "not_affected", "check_absent": "439999"}
+{"res": "Z-3107-2011", "unit": {"model": "13075-04-01", "lot": "15047G1"}, "expect": "affected"}
+{"res": "Z-3107-2011", "unit": {"model": "13075-04-01", "lot": "15047G2"}, "expect": "not_affected", "check_absent": "15047G2"}
+{"res": "Z-3107-2011", "unit": {"model": "13075-04-03", "lot": "26289G1"}, "expect": "affected"}
+{"res": "Z-3107-2011", "unit": {"model": "13075-04-01"}, "expect": "unresolved"}
+{"res": "Z-2716-2020", "unit": {"model": "8000", "serial": "2326382"}, "expect": "affected"}
+{"res": "Z-2727-2016", "unit": {"model": "20792", "serial": "16061005"}, "expect": "affected"}
+{"res": "Z-2727-2016", "unit": {"model": "20792", "serial": "16061024"}, "expect": "not_affected", "check_absent": "16061024", "tag": "hard_gap_in_list"}
+{"res": "Z-2629-2011", "unit": {"ref": "6640440", "serial": "12345"}, "expect": "affected", "tag": "spacing"}
+{"res": "Z-2629-2011", "unit": {"ref": "66 40 440"}, "expect": "affected"}
+{"res": "Z-1692-2008", "unit": {"ref": "4-070523-SP"}, "expect": "affected"}
+{"res": "Z-1692-2008", "unit": {"ref": "4-070524-SP"}, "expect": "not_affected", "check_absent": "4-070524-SP", "tag": "model_mismatch"}
+{"res": "Z-0984-2008", "unit": {"ref": "17310-00", "serial": "AHV03022"}, "expect": "affected"}
+{"res": "Z-0984-2008", "unit": {"ref": "17310-00", "serial": "AHV03026"}, "expect": "not_affected", "check_absent": "AHV03026"}
+{"res": "Z-0984-2008", "unit": {"ref": "17310-00"}, "expect": "unresolved"}
+{"res": "Z-0111-2024", "unit": {"udi_di": "00619498003259", "serial": "22151234567"}, "expect": "affected", "tag": "hard_date_code"}
+{"res": "Z-0111-2024", "unit": {"udi_di": "00619498003266", "serial": "22211234567"}, "expect": "not_affected", "tag": "hard_date_code"}
+{"res": "Z-0111-2024", "unit": {"udi_di": "00619498003259"}, "expect": "unresolved"}
+{"res": "Z-1469-2008", "unit": {"ref": "14425", "lot": "PWRMK0407201"}, "expect": "affected"}
+{"res": "Z-1469-2008", "unit": {"ref": "14425", "lot": "PWRMK0407202"}, "expect": "not_affected", "check_absent": "PWRMK0407202"}
+{"res": "Z-0296-2012", "unit": {"model": "Trilogy 100", "serial": "GV111040533"}, "expect": "affected"}
+{"res": "Z-0296-2012", "unit": {"model": "Trilogy 200", "serial": "TV211032431"}, "expect": "affected"}
+{"res": "Z-0296-2012", "unit": {"model": "Trilogy 100", "serial": "GV111040534"}, "expect": "not_affected", "check_absent": "GV111040534"}
+{"res": "Z-1896-2010", "unit": {"model": "1054260", "serial": "TV110051146"}, "expect": "affected"}
+{"res": "Z-1896-2010", "unit": {"model": "1054260", "serial": "TV110051149"}, "expect": "not_affected", "check_absent": "TV110051149"}
+{"res": "Z-1289-2023", "unit": {"model": "DS2000X11B", "serial": "H27736231F4BE"}, "expect": "affected"}
+{"res": "Z-1289-2023", "unit": {"model": "DS2000X11B", "serial": "H31224541CA74"}, "expect": "affected"}
+{"res": "Z-1289-2023", "unit": {"model": "DS2000X11B", "serial": "H27736231F4BF"}, "expect": "not_affected", "check_absent": "H27736231F4BF"}
+{"res": "Z-0882-2023", "unit": {"model": "1054260", "serial": "TV120081230"}, "expect": "affected"}
+{"res": "Z-0882-2023", "unit": {"model": "1054260", "serial": "TV120081232"}, "expect": "not_affected", "check_absent": "TV120081232"}
+{"res": "Z-1499-2024", "unit": {"model": "VT2110X24B", "serial": "H31910535835D"}, "expect": "affected"}
+{"res": "Z-1499-2024", "unit": {"model": "VT2110X24B", "serial": "H32365121602B", "software": "1.05.06.00"}, "expect": "not_affected", "tag": "hard_software_exclusion"}
+{"res": "Z-1499-2024", "unit": {"model": "VT2110X24B", "serial": "H31910535835E"}, "expect": "not_affected", "check_absent": "H31910535835E"}
+{"res": "Z-0047-2007", "unit": {"model": "V1000", "serial": "VSF5200456"}, "expect": "affected"}
+{"res": "Z-0047-2007", "unit": {"model": "V1000", "serial": "VS3008584"}, "expect": "affected"}
+{"res": "Z-0047-2007", "unit": {"model": "V1000", "serial": "VSF5200458"}, "expect": "not_affected", "check_absent": "VSF5200458"}
+{"res": "Z-1693-2025", "unit": {"udi_di": "00815098020317", "lot": "400188859"}, "expect": "affected"}
+{"res": "Z-1693-2025", "unit": {"udi_di": "00815098020317", "lot": "400188860"}, "expect": "not_affected", "check_absent": "400188860"}
+{"res": "Z-1693-2025", "unit": {"udi_di": "00815098020317"}, "expect": "unresolved"}
+{"res": "Z-1782-2010", "unit": {"model": "ReviveR", "serial": "202003000"}, "expect": "affected", "tag": "range"}
+{"res": "Z-1782-2010", "unit": {"model": "ReviveR", "serial": "206009871"}, "expect": "affected", "tag": "range"}
+{"res": "Z-1782-2010", "unit": {"model": "ReviveR", "serial": "204000000"}, "expect": "not_affected", "tag": "range"}
+{"res": "Z-1782-2010", "unit": {"model": "ReviveR", "serial": "202001004"}, "expect": "not_affected", "tag": "range"}
+{"res": "Z-1258-2010", "unit": {"model": "M3536A", "serial": "US00123456"}, "expect": "affected"}
+{"res": "Z-1258-2010", "unit": {"model": "M3535A"}, "expect": "not_affected", "tag": "model_mismatch"}
+{"res": "Z-0802-2015", "unit": {"ref": "2059144-001", "lot": "40217-0776"}, "expect": "affected"}
+{"res": "Z-0802-2015", "unit": {"ref": "2059144-001", "lot": "40217-0777"}, "expect": "not_affected", "check_absent": "40217-0777"}
+{"res": "Z-0802-2015", "unit": {"ref": "2059144-005"}, "expect": "unresolved"}
+{"res": "Z-1691-2025", "unit": {"model": "DDU-2200", "lot": "400149039"}, "expect": "affected"}
+{"res": "Z-1691-2025", "unit": {"model": "DDU-2200", "lot": "400149040"}, "expect": "not_affected", "check_absent": "400149040"}
+{"res": "Z-1090-2014", "unit": {"model": "M3536J", "serial": "US00300000"}, "expect": "affected", "tag": "range"}
+{"res": "Z-1090-2014", "unit": {"model": "M3536J", "serial": "US00400000"}, "expect": "not_affected", "tag": "hard_model_specific_range"}
+{"res": "Z-1090-2014", "unit": {"model": "M3536MC", "serial": "US00500021"}, "expect": "not_affected", "tag": "range"}
+{"res": "Z-1090-2014", "unit": {"model": "M3535A", "serial": "US00100100"}, "expect": "affected", "tag": "range"}
+{"res": "Z-0643-2013", "unit": {"model": "M5066A"}, "expect": "unresolved"}
+{"res": "Z-1107-2014", "unit": {"model": "861290", "serial": "USO1100200"}, "expect": "affected", "tag": "range"}
+{"res": "Z-1107-2014", "unit": {"model": "861290", "serial": "US11201100"}, "expect": "affected", "tag": "range"}
+{"res": "Z-1107-2014", "unit": {"model": "861290", "serial": "US11201190"}, "expect": "not_affected", "tag": "hard_prefixed_range"}
+{"res": "Z-0919-2009", "unit": {"model": "9390A", "serial": "4040240"}, "expect": "affected"}
+{"res": "Z-0919-2009", "unit": {"model": "9390A", "serial": "4114419"}, "expect": "affected"}
+{"res": "Z-0919-2009", "unit": {"model": "9390A", "serial": "4038453"}, "expect": "not_affected", "check_absent": "4038453", "tag": "hard_gap_in_list"}
+{"res": "Z-0920-2009", "unit": {"model": "9390E", "serial": "4043040"}, "expect": "affected"}
+{"res": "Z-0920-2009", "unit": {"model": "9390E", "serial": "4043049"}, "expect": "not_affected", "check_absent": "4043049", "tag": "hard_gap_in_list"}
+{"res": "Z-2065-2026", "unit": {"ref": "99577-000025", "serial": "48935408"}, "expect": "affected"}
+{"res": "Z-2065-2026", "unit": {"ref": "99577-000025", "serial": "48935409"}, "expect": "not_affected", "check_absent": "48935409"}
+{"res": "Z-2065-2026", "unit": {"ref": "99577-000025"}, "expect": "unresolved"}
+{"res": "Z-0921-2009", "unit": {"model": "92532", "serial": "4001399"}, "expect": "affected"}
+{"res": "Z-0921-2009", "unit": {"model": "92532", "serial": "92532-0001193"}, "expect": "affected"}
+{"res": "Z-0921-2009", "unit": {"model": "92532", "serial": "4001400"}, "expect": "not_affected", "check_absent": "4001400"}
+{"res": "Z-2896-2018", "unit": {"udi_di": "00884838009646", "serial": "US123"}, "expect": "affected"}
+{"res": "Z-2896-2018", "unit": {"udi_di": "00884838009677"}, "expect": "not_affected", "check_absent": "00884838009677", "tag": "model_mismatch"}
+{"res": "Z-0513-2013", "unit": {"ref": "6802F-PA00001", "serial": "AB-123"}, "expect": "affected"}
+{"res": "Z-0513-2013", "unit": {"ref": "6801F-PA00001"}, "expect": "not_affected", "check_absent": "6801F-PA00001", "tag": "model_mismatch"}
+{"res": "Z-1317-2019", "unit": {"udi_di": "00884838028890", "serial": "US12345"}, "expect": "affected"}
+{"res": "Z-1317-2019", "unit": {"model": "863069"}, "expect": "affected"}
+{"res": "Z-0351-2014", "unit": {"model": "91390", "serial": "1390-101945"}, "expect": "affected"}
+{"res": "Z-0351-2014", "unit": {"model": "91390", "serial": "1390-102024"}, "expect": "affected"}
+{"res": "Z-0351-2014", "unit": {"model": "91390", "serial": "1390-101941"}, "expect": "not_affected", "check_absent": "1390-101941"}
+{"res": "Z-2696-2020", "unit": {"model": "865240", "serial": "DE50887434"}, "expect": "affected"}
+{"res": "Z-2696-2020", "unit": {"model": "865240", "serial": "DE50887063"}, "expect": "affected"}
+{"res": "Z-2696-2020", "unit": {"model": "865240", "serial": "DE50887000"}, "expect": "not_affected", "check_absent": "DE50887000"}
+{"res": "Z-2893-2018", "unit": {"udi_di": "00884838000124", "serial": "X1"}, "expect": "affected"}
+{"res": "Z-1690-2024", "unit": {"model": "SCL500RM1U", "serial": "5S2104089430"}, "expect": "affected", "tag": "hard_date_code"}
+{"res": "Z-1690-2024", "unit": {"model": "SCL500RM1U", "serial": "5S2301123456"}, "expect": "not_affected", "tag": "hard_date_code"}
+{"res": "Z-1690-2024", "unit": {"model": "SCL500RMI1U", "serial": "5S2239123456"}, "expect": "affected", "tag": "hard_date_code"}
+{"res": "Z-1522-2011", "unit": {"model": "ApexPro", "serial": "SEE09530903GA"}, "expect": "affected"}
+{"res": "Z-1522-2011", "unit": {"model": "ApexPro", "serial": "SAH05260918GA"}, "expect": "affected"}
+{"res": "Z-1522-2011", "unit": {"model": "ApexPro", "serial": "SEE09530904GA"}, "expect": "not_affected", "check_absent": "SEE09530904GA"}
+{"res": "Z-2886-2016", "unit": {"model": "96280", "serial": "6280-000056"}, "expect": "affected"}
+{"res": "Z-2886-2016", "unit": {"model": "96280", "serial": "6280-000473"}, "expect": "affected"}
+{"res": "Z-2886-2016", "unit": {"model": "96280", "serial": "6280-000054"}, "expect": "not_affected", "check_absent": "6280-000054"}
+{"res": "Z-0806-2014", "unit": {"model": "Dash 4000", "serial": "F1DJ2018G"}, "expect": "affected"}
+{"res": "Z-0806-2014", "unit": {"model": "Dash 4000", "serial": "L0DJ5354G"}, "expect": "affected"}
+{"res": "Z-0806-2014", "unit": {"model": "Dash 4000", "serial": "F1DJ2022G"}, "expect": "not_affected", "check_absent": "F1DJ2022G"}
+{"res": "Z-1558-2025", "unit": {"ref": "67MCTX-4", "serial": "100012345"}, "expect": "affected"}
+{"res": "Z-1558-2025", "unit": {"udi_di": "00732094151367"}, "expect": "affected"}
+{"res": "Z-0045-2019", "unit": {"ref": "CS08654RA", "serial": "B300001445"}, "expect": "affected"}
+{"res": "Z-0045-2019", "unit": {"ref": "CS08654RA", "serial": "B300001446"}, "expect": "not_affected", "check_absent": "B300001446"}
+{"res": "Z-0045-2019", "unit": {"ref": "CS08654RA"}, "expect": "unresolved"}
+{"res": "Z-1299-2010", "unit": {"model": "6500-FRE", "serial": "123"}, "expect": "affected"}
+{"res": "Z-1305-2010", "unit": {"model": "U5693-00"}, "expect": "affected"}
+{"res": "Z-1305-2010", "unit": {"model": "U5693-01"}, "expect": "not_affected", "check_absent": "U5693-01", "tag": "model_mismatch"}
+{"res": "Z-1303-2010", "unit": {"model": "9400N-00", "serial": "5"}, "expect": "affected"}
+{"res": "Z-0034-2019", "unit": {"ref": "CS78657", "serial": "B200001550"}, "expect": "affected"}
+{"res": "Z-0034-2019", "unit": {"ref": "CS78657", "serial": "B410123252"}, "expect": "affected"}
+{"res": "Z-0034-2019", "unit": {"ref": "CS78657", "serial": "B200001413"}, "expect": "not_affected", "check_absent": "B200001413"}
+{"res": "Z-0661-06", "unit": {"model": "Rad 57 sensor", "serial": "5108"}, "expect": "affected"}
+{"res": "Z-0661-06", "unit": {"model": "Rad 57 sensor", "serial": "6575"}, "expect": "affected"}
+{"res": "Z-0661-06", "unit": {"model": "Rad 57 sensor", "serial": "4795"}, "expect": "not_affected", "check_absent": "4795"}
+{"res": "Z-1487-06", "unit": {"model": "M3001A", "serial": "DE51234567", "software": "C.0"}, "expect": "affected", "tag": "hard_prefix_and_software"}
+{"res": "Z-1487-06", "unit": {"model": "M3001A", "serial": "DE60012345", "software": "C.0"}, "expect": "not_affected", "tag": "hard_prefix_and_software"}
+{"res": "Z-1487-06", "unit": {"model": "M3001A", "serial": "DE51234567"}, "expect": "unresolved", "tag": "hard_prefix_and_software"}
+{"res": "Z-1360-2026", "unit": {"udi_di": "05060550650044", "lot": "13820/00001"}, "expect": "affected"}
+{"res": "Z-1360-2026", "unit": {"udi_di": "05060550650044", "lot": "13850/00001"}, "expect": "not_affected", "check_absent": "13850/00001"}
+{"res": "Z-2151-2025", "unit": {"ref": "PM100N", "serial": "X123"}, "expect": "affected"}
+{"res": "Z-2151-2025", "unit": {"udi_di": "10884521196728"}, "expect": "affected"}
+{"res": "Z-1537-2024", "unit": {"ref": "9847", "serial": "6000062125"}, "expect": "affected"}
+{"res": "Z-1537-2024", "unit": {"ref": "9847", "serial": "6000092763"}, "expect": "affected"}
+{"res": "Z-1537-2024", "unit": {"ref": "9847", "serial": "6000062118"}, "expect": "not_affected", "check_absent": "6000062118"}
+{"res": "Z-0022-2019", "unit": {"ref": "CS08651-02", "serial": "B836141103"}, "expect": "affected"}
+{"res": "Z-0022-2019", "unit": {"ref": "CS08651-02", "serial": "P808176897"}, "expect": "affected"}
+{"res": "Z-0022-2019", "unit": {"ref": "CS08651-02", "serial": "B836141168"}, "expect": "not_affected", "check_absent": "B836141168", "tag": "hard_gap_in_list"}
+{"res": "Z-0036-2019", "unit": {"ref": "CS08652", "serial": "B200001306"}, "expect": "affected"}
+{"res": "Z-0036-2019", "unit": {"ref": "CS08652", "serial": "B450123978"}, "expect": "affected"}
+{"res": "Z-0036-2019", "unit": {"ref": "CS08652", "serial": "B200001302"}, "expect": "not_affected", "check_absent": "B200001302"}
