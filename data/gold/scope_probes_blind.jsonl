@@ -1,0 +1,70 @@
+{"res":"Z-1067-2019","unit":{"ref":"989803176201","lot":"2018-28"},"expect":"affected"}
+{"res":"Z-1067-2019","unit":{"ref":"989803176201","lot":"2018-29"},"expect":"not_affected","check_absent":"2018-29"}
+{"res":"Z-1067-2019","unit":{"ref":"989803176201"},"expect":"unresolved"}
+{"res":"Z-0982-2008","unit":{"ref":"17210-00","serial":"AEV01757"},"expect":"affected"}
+{"res":"Z-0982-2008","unit":{"ref":"17210-00","serial":"AGV02303"},"expect":"not_affected","check_absent":"AGV02303"}
+{"res":"Z-0982-2008","unit":{"ref":"17210-00"},"expect":"unresolved"}
+{"res":"Z-0404-2011","unit":{"ref":"LVTX5013"},"expect":"affected"}
+{"res":"Z-0404-2011","unit":{"ref":"LVTX5014"},"expect":"not_affected","check_absent":"LVTX5014","tag":"model_mismatch"}
+{"res":"Z-1502-2024","unit":{"model":"DS2200X11B"},"expect":"unresolved","tag":"hard_software_exclusion"}
+{"res":"Z-1502-2024","unit":{"model":"DS2200X11B","software":"1.05.06.00"},"expect":"not_affected","tag":"hard_software_exclusion"}
+{"res":"Z-1502-2024","unit":{"model":"DS2200X11B","software":"1.04.02.00"},"expect":"affected","tag":"hard_software_exclusion"}
+{"res":"Z-0343-03","unit":{"model":"M4735A","serial":"US00100698"},"expect":"affected"}
+{"res":"Z-0343-03","unit":{"model":"M4735A","serial":"US00114825"},"expect":"affected"}
+{"res":"Z-0343-03","unit":{"model":"M4735A","serial":"US00100699"},"expect":"not_affected","check_absent":"US00100699"}
+{"res":"Z-0494-2022","unit":{"ref":"1135257","lot":"210500"},"expect":"affected","tag":"range"}
+{"res":"Z-0494-2022","unit":{"ref":"1135257","lot":"210600"},"expect":"not_affected","tag":"range"}
+{"res":"Z-0494-2022","unit":{"ref":"1135257"},"expect":"unresolved"}
+{"res":"Z-0524-2013","unit":{"model":"Carescape PDM","serial":"SA310310978GA"},"expect":"affected"}
+{"res":"Z-0524-2013","unit":{"model":"Carescape PDM","serial":"SA310507528GA"},"expect":"affected"}
+{"res":"Z-0524-2013","unit":{"model":"Carescape PDM","serial":"SA310310979GA"},"expect":"not_affected","check_absent":"SA310310979GA"}
+{"res":"Z-0134-2020","unit":{"ref":"163840455","lot":"865505H"},"expect":"affected"}
+{"res":"Z-0134-2020","unit":{"ref":"163840455","lot":"865506H"},"expect":"not_affected","check_absent":"865506H"}
+{"res":"Z-0134-2020","unit":{"udi_di":"10887787007449"},"expect":"unresolved"}
+{"res":"Z-2165-2021","unit":{"model":"Dose IQ Safety Software"},"expect":"unresolved"}
+{"res":"Z-0043-2019","unit":{"ref":"CS08658-03","serial":"PA14170897"},"expect":"affected"}
+{"res":"Z-0043-2019","unit":{"ref":"CS08658-03","serial":"PA24172472"},"expect":"affected"}
+{"res":"Z-0043-2019","unit":{"ref":"CS08658-03","serial":"PA14170896"},"expect":"not_affected","check_absent":"PA14170896"}
+{"res":"Z-0529-2022","unit":{"ref":"3570009","serial":"123456"},"expect":"affected"}
+{"res":"Z-0529-2022","unit":{"udi_di":"00085412610900"},"expect":"affected"}
+{"res":"Z-2024-2012","unit":{"model":"1054260"},"expect":"affected"}
+{"res":"Z-2024-2012","unit":{"model":"1054261"},"expect":"not_affected","check_absent":"1054261","tag":"model_mismatch"}
+{"res":"Z-0985-2008","unit":{"ref":"17311-00","serial":"AHV03004"},"expect":"affected"}
+{"res":"Z-0985-2008","unit":{"ref":"17311-00","serial":"AHV03002"},"expect":"not_affected","check_absent":"AHV03002","tag":"hard_gap_in_list"}
+{"res":"Z-0985-2008","unit":{"ref":"17311-00"},"expect":"unresolved"}
+{"res":"Z-1302-2010","unit":{"model":"9400-00","serial":"77"},"expect":"affected"}
+{"res":"Z-1302-2010","unit":{"model":"9400N-00"},"expect":"not_affected","check_absent":"9400N-00","tag":"model_mismatch"}
+{"res":"Z-1308-2010","unit":{"model":"U9400-00"},"expect":"affected"}
+{"res":"Z-0044-2019","unit":{"ref":"CS08654","serial":"B300001030"},"expect":"affected"}
+{"res":"Z-0044-2019","unit":{"ref":"CS08654","serial":"B500002759"},"expect":"affected"}
+{"res":"Z-0044-2019","unit":{"ref":"CS08654","serial":"B300001031"},"expect":"not_affected","check_absent":"B300001031"}
+{"res":"Z-1605-2008","unit":{"model":"Micro 3100","serial":"123"},"expect":"affected"}
+{"res":"Z-1257-2010","unit":{"model":"M3535A"},"expect":"affected"}
+{"res":"Z-1121-2026","unit":{"model":"35700BAX2","serial":"2119054"},"expect":"affected"}
+{"res":"Z-1121-2026","unit":{"model":"35700BAX2","serial":"2091261"},"expect":"affected"}
+{"res":"Z-1121-2026","unit":{"model":"35700BAX2","serial":"2119055"},"expect":"not_affected","check_absent":"2119055"}
+{"res":"Z-1986-2023","unit":{"ref":"2503","lot":"17FAN"},"expect":"affected"}
+{"res":"Z-1986-2023","unit":{"ref":"2503","lot":"18KSS"},"expect":"affected"}
+{"res":"Z-1986-2023","unit":{"ref":"2503","lot":"17FAO"},"expect":"not_affected","check_absent":"17FAO"}
+{"res":"Z-1986-2023","unit":{"ref":"2503"},"expect":"unresolved"}
+{"res":"Z-1547-2010","unit":{"model":"E Series BLS","software":"6.12"},"expect":"affected","tag":"hard_software_wildcard"}
+{"res":"Z-1547-2010","unit":{"model":"E Series BLS","software":"8.00"},"expect":"not_affected","tag":"hard_software_wildcard"}
+{"res":"Z-1547-2010","unit":{"model":"E Series BLS"},"expect":"unresolved"}
+{"res":"Z-1474-2020","unit":{"model":"BG 323","serial":"1"},"expect":"affected"}
+{"res":"Z-0455-2026","unit":{"model":"6160000-002","serial":"SR525270031WA"},"expect":"affected"}
+{"res":"Z-0455-2026","unit":{"model":"6160000-002","serial":"SR525270030WA"},"expect":"not_affected","check_absent":"SR525270030WA"}
+{"res":"Z-2247-2026","unit":{"ref":"5700026","serial":"SUV25423440TA"},"expect":"affected"}
+{"res":"Z-2247-2026","unit":{"ref":"5700026","serial":"SUV25263114TA"},"expect":"affected"}
+{"res":"Z-2247-2026","unit":{"ref":"5700026","serial":"SUV25423456TA"},"expect":"not_affected","check_absent":"SUV25423456TA"}
+{"res":"Z-3007-2011","unit":{"ref":"2M8161","serial":"12010746CC"},"expect":"affected"}
+{"res":"Z-3007-2011","unit":{"ref":"2M8161","serial":"12010747CC"},"expect":"not_affected","check_absent":"12010747CC"}
+{"res":"Z-2245-2026","unit":{"ref":"5697603","serial":"KSA7013962"},"expect":"affected"}
+{"res":"Z-2245-2026","unit":{"ref":"5697603","serial":"KSA7096910"},"expect":"affected"}
+{"res":"Z-2245-2026","unit":{"ref":"5697603","serial":"KSA7013963"},"expect":"not_affected","check_absent":"KSA7013963"}
+{"res":"Z-0963-2015","unit":{"model":"M3536M","serial":"US00520000"},"expect":"affected","tag":"range"}
+{"res":"Z-0963-2015","unit":{"model":"M3536MC","serial":"US00500100"},"expect":"not_affected","tag":"hard_model_specific_range"}
+{"res":"Z-0963-2015","unit":{"model":"M3536M2","serial":"US00554177"},"expect":"affected","tag":"range"}
+{"res":"Z-0963-2015","unit":{"model":"M3536J","serial":"US00340000"},"expect":"not_affected","tag":"hard_model_specific_range"}
+{"res":"Z-2408-2008","unit":{"ref":"375043","lot":"60998897"},"expect":"affected"}
+{"res":"Z-2408-2008","unit":{"ref":"375043","lot":"60998898"},"expect":"not_affected","check_absent":"60998898"}
+{"res":"Z-2408-2008","unit":{"ref":"375043"},"expect":"unresolved"}
