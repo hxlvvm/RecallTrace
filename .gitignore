@@ -4,3 +4,4 @@ __pycache__/
 .venv
 jobs_local/*.log
 .pytest_cache/
+jobs_local/
