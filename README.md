@@ -1,12 +1,12 @@
 # RecallTrace
 
-[![tests](https://github.com/hxlvvm/RecallTrace/actions/workflows/tests.yml/badge.svg)](https://github.com/hxlvvm/RecallTrace/actions/workflows/tests.yml)
+[![tests](https://github.com/hxlvvm/RecallTrace/actions/workflows/tests.yml/badge.svg)](https://github.com/hxlvvm/RecallTrace/actions/workflows/tests.yml) [![demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://recalltrace.streamlit.app)
 
 **Match a hospital's medical equipment against FDA device recalls, and see the recall text behind every call.**
 
 ![demo](assets/demo.gif)
 
-Live demo: **coming soon** · Fictional inventory, real openFDA recall records
+**Live demo: [recalltrace.streamlit.app](https://recalltrace.streamlit.app)** · Fictional inventory, real openFDA recall records
 
 ## The problem
 
