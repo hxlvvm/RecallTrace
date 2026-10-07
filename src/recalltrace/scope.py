@@ -49,6 +49,16 @@ class Verdict:
     reason: str
 
 
+def _version_match(value: str, listed: list[str]) -> bool:
+    """Software version match; an 'x' in a recalled version such as '6.XX' or '9.0.x' stands for any character."""
+    v = value.strip().upper()
+    for item in listed:
+        pattern = re.escape(item.strip().upper()).replace("X", "[0-9A-Z]")
+        if norm_id(v) == norm_id(item) or re.fullmatch(pattern, v) or (item.upper().endswith(".X") and v.startswith(item.upper()[:-1])):
+            return True
+    return False
+
+
 def _date_rule_hit(serial: str, rule: dict) -> bool | None:
     digits = re.sub(r"\D", "", serial) if rule.get("digits_only") else serial
     start, length = int(rule["start"]), int(rule["length"])
@@ -133,12 +143,12 @@ def check(scope: Scope, unit: dict, record_text: str = "") -> Verdict:
             return Verdict(NOT_AFFECTED, f"{key} {value} is not one of the recalled models or catalogue numbers")
 
     soft = unit.get("software")
-    if scope.software_exclude and soft and norm_id(soft) in {norm_id(s) for s in scope.software_exclude}:
+    if scope.software_exclude and soft and _version_match(soft, scope.software_exclude):
         return Verdict(NOT_AFFECTED, f"software {soft} is explicitly excluded")
     if scope.software_include:
         if not soft:
             return Verdict(UNRESOLVED, "recall is limited to certain software versions and the unit has none recorded")
-        if norm_id(soft) not in {norm_id(s) for s in scope.software_include}:
+        if not _version_match(soft, scope.software_include):
             return Verdict(NOT_AFFECTED, f"software {soft} is not a recalled version")
 
     if scope.per_identifier and sub is None and not scope.units.constrains("serial") and not scope.units.constrains("lot"):

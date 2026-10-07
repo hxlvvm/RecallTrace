@@ -50,7 +50,7 @@ def evaluate(parser, probes, rows, show=False):
 def main():
     name = sys.argv[1] if len(sys.argv) > 1 else "rules"
     rows = {json.loads(l)["product_res_number"]: json.loads(l) for l in gzip.open(ROOT / "data/snapshot/recalls.jsonl.gz", "rt")}
-    probes = [json.loads(l) for l in open(ROOT / "data/gold/scope_probes.jsonl")]
+    probes = [json.loads(l) for l in open(ROOT / "data/gold" / ("scope_probes_blind.jsonl" if "--blind" in sys.argv else "scope_probes.jsonl"))]
     print(name, json.dumps(evaluate(load_parser(name), probes, rows, show="-v" in sys.argv)))
 
 
